@@ -160,12 +160,36 @@ a:focus {
      margin: 0 auto;
 }
 
-.text-alignment{
-    max-width: 40%;
-    float: right;
+.text-right{
+    max-width: 50%;
+    
     text-align: left;
 }
 
+
+.text-float-right{
+    float: right;
+}
+.text-left{ 
+    max-width: 50%;
+    text-align: left;
+}
+.text-float-left{
+    float: left;
+}
+.text-left{
+    max-width: 50%;
+    text-align: left;
+}
+\
+
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
