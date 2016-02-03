@@ -160,6 +160,8 @@ a:focus {
      margin: 0 auto;
 }
 
+/*TEXT TREATMENT*/
+/*
 .text-right{
     max-width: 50%;
     
@@ -181,7 +183,7 @@ a:focus {
     max-width: 50%;
     text-align: left;
 }
-\
+
 
 .white{
     color: white;
@@ -189,7 +191,9 @@ a:focus {
 
 .black{
     color: black;
-}
+}*/
+
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -234,6 +238,43 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+}
+
+.slide {
+    padding: 100px 0;
+    display: table;
+    width: 100%;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.slide .slide-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*FOR EACH SLIDES*/
+.about-section {
+
+}
+
+.exhibition-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.credit-section {
+    
 }
 
 @media(min-width:768px) {
@@ -329,17 +370,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.exhibition-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+
 
 #map {
     width: 100%;
@@ -349,7 +380,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
     .exhibition-section {
@@ -409,7 +440,8 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 5px 0;
+    font-size: 0.5 em;
 }
 
 footer p {
